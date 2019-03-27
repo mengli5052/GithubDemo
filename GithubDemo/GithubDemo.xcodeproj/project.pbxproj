@@ -15,6 +15,7 @@
 		7F2102F9224B19E8002F3D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2102F8224B19E8002F3D74 /* main.m */; };
 		7F210303224B19E8002F3D74 /* GithubDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F210302224B19E8002F3D74 /* GithubDemoTests.m */; };
 		7F21030E224B19E8002F3D74 /* GithubDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21030D224B19E8002F3D74 /* GithubDemoUITests.m */; };
+		7F21031D224B1B91002F3D74 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F21031C224B1B91002F3D74 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7F210309224B19E8002F3D74 /* GithubDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F21030D224B19E8002F3D74 /* GithubDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubDemoUITests.m; sourceTree = "<group>"; };
 		7F21030F224B19E8002F3D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F21031B224B1B91002F3D74 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		7F21031C224B1B91002F3D74 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7F2102F4224B19E8002F3D74 /* LaunchScreen.storyboard */,
 				7F2102F7224B19E8002F3D74 /* Info.plist */,
 				7F2102F8224B19E8002F3D74 /* main.m */,
+				7F21031B224B1B91002F3D74 /* GameViewController.h */,
+				7F21031C224B1B91002F3D74 /* GameViewController.m */,
 			);
 			path = GithubDemo;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F21031D224B1B91002F3D74 /* GameViewController.m in Sources */,
 				7F2102EE224B19E7002F3D74 /* ViewController.m in Sources */,
 				7F2102F9224B19E8002F3D74 /* main.m in Sources */,
 				7F2102EB224B19E7002F3D74 /* AppDelegate.m in Sources */,
